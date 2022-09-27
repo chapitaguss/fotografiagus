@@ -1,0 +1,167 @@
+
+@import "mediaqueris";
+
+html {
+  font-size: 62, 5%;
+}
+body {
+  font-family: "Rajdhani", sans-serif;
+}
+.Titulo {
+  color: rgb(10, 32, 233);
+}
+
+.icon {
+  background: url("../assets/logo3.png");
+  height: 82px;
+  width: 100px;
+  display: block;
+}
+
+.menu a {
+  font-size: 40px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  ul {
+    list-style-type: none;
+  }
+}
+
+#logo {
+  margin: 1px;
+}
+
+.titulo2 {
+  background-color: rgb(0, 247, 255);
+}
+
+.letra {
+  font-style: italic;
+  color: rgba(4, 1, 22, 0.952);
+  font-size: 30px;
+}
+
+.video {
+  display: inline-block;
+}
+/* Pagina contacto */
+.titulo {
+  color: blue;
+}
+
+.background {
+  background-image: linear-gradient(150deg, #4aeea9 0%, #e198f3 100%);
+  background-size: cover;
+  padding: 10px;
+}
+
+.formulario {
+  width: 30%;
+  margin: 0 auto;
+  background-color: rgba(236, 15, 15, 0.2);
+  padding: 30px 50px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  border-radius: 10px;
+  border: solid 2px rgba(14, 29, 241, 0.5);
+}
+
+/* Galeria */
+
+.fotos {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+}
+
+.abajo {
+  border-top: 1px solid black;
+  height: 2px;
+  max-width: 2000px;
+  padding: 0;
+}
+
+/* SERVICIOS */
+
+.fondoser {
+  background-image: url(../multimedia/servicios.jpg);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: 20%;
+}
+
+/*NOSOTROS */
+
+.sobrenosotros {
+  border: 1px solid black;
+}
+
+/* APLICANDO GRIDS Y FLEX*/
+
+.container-tips {
+  display: grid;
+  gap: 1.6em;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.container-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.somos {
+  border: 4px solid black;
+  border-radius: 1%;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.footer-item {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+img {
+  width: 100%;
+}
+.galeriadefotos {
+  display: flex;
+  padding: 5px;
+  flex-wrap: wrap;
+}
+
+.columnas {
+  flex: 25%;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+.columnas img {
+  margin-top: 5px;
+}
+
+/* Bots imagenes en carousel */
+.carousel-item {
+  max-width: 50rem;
+  max-height: 50rem;
+}
+
+.bg-lig {
+  background-color: #4aeea9;
+}
+
+.bg-lig a:hover {
+  color: #f03219;
+}
+
+.bg-lig {
+  font-size: 30px;
+}
